@@ -1,6 +1,6 @@
 # universal-store
 
-
+Gestor de estado para navegador y node.js.
 
 ## Instalación
 

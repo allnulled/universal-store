@@ -1,7 +1,7 @@
 {
-  "name": "universal-store",
+  "name": "@allnulled/universal-store",
   "version": "1.0.0",
-  "description": "",
+  "description": "State manager for browser and node.js.",
   "main": "dist/store.unbundled.js",
   "directories": {
     "test": "test"
