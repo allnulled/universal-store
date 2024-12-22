@@ -3,10 +3,10 @@
   const mod = factory();
 
   if (typeof window !== "undefined") {
-    window.WatchableStore = mod;
+    window.UniversalStore = mod;
   }
   if (typeof global !== "undefined") {
-    global.WatchableStore = mod;
+    global.UniversalStore = mod;
   }
   if (typeof module !== "undefined") {
     module.exports = mod;

@@ -1,4 +1,5 @@
-const Store = require(__dirname + "/../dist/store.js");
+require(__dirname + "/../dist/store.js");
+const Store = UniversalStore;
 const store = new Store({ user: { name: "John", age: 30, hobbies: ["reading"] } });
 const storepath = __dirname + "/db1.json";
 store.hydrate(storepath);

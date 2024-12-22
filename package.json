@@ -7,9 +7,10 @@
     "test": "test"
   },
   "scripts": {
-    "test": ""
+    "build": "node src/build.js && npm run test",
+    "test": "node test/test.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "allnulled",
+  "license": "WTFPL"
 }

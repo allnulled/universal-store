@@ -1,3 +1,6 @@
+/**
+ * From: https://github.com/allnulled/universal-store
+ */
 (function (factory) {
 
   const mod = factory();
