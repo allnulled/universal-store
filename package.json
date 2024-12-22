@@ -10,7 +10,7 @@
     "build": "node src/build.js && npm run test",
     "test": "node test/test.js"
   },
-  "keywords": [],
+  "keywords": ["state", "manager", "store"],
   "author": "allnulled",
   "license": "WTFPL"
 }

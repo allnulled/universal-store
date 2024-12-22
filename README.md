@@ -16,7 +16,8 @@ npm install -s @allnulled/universal-store
 
 Dado que usa otras librerías, y pueden quererse usar desde otros módulos o no, puedes usar el archivo:
 
-  - `store.js`: este fichero tiene todas las APIs necesarias.
+  - `store.js`: este fichero tiene todas las APIs necesarias. Incluye:
+     - [`ufs`](https://github.com/allnulled/universal-file-system) o [`universal-file-system`](https://github.com/allnulled/universal-file-system)
   - `store.unbundled.js`: este fichero solo tiene la parte que le es propia, y sobreentiende que cargarás las otras librerías necesarias por tu propia cuenta.
 
 **NOTA:** Por defecto, se usa `store.unbundled.js`.
@@ -79,4 +80,4 @@ store.dehydrate("file_to_write_to.json");
 
 Todos son métodos síncronos y no tienen alternativa.
 
-Los métodos `hydrate` y `dehydrate` están polyfileados con la librería `ufs` o `universal-file-system`, de [allnulled](https://github.com/allnulled/universal-file-system) también. Así que puedes persistir el estado del store tanto en node.js como en el browser.# universal-store
+Los métodos `hydrate` y `dehydrate` están polyfileados con la librería `ufs` o `universal-file-system`, de [allnulled](https://github.com/allnulled/universal-file-system) también. Así que puedes persistir el estado del store tanto en node.js como en el browser.
