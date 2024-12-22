@@ -1,6 +1,6 @@
 {
   "name": "@allnulled/universal-store",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "State manager for browser and node.js.",
   "main": "dist/store.unbundled.js",
   "directories": {
@@ -10,7 +10,11 @@
     "build": "node src/build.js && npm run test",
     "test": "node test/test.js"
   },
-  "keywords": ["state", "manager", "store"],
+  "keywords": [
+    "state",
+    "manager",
+    "store"
+  ],
   "author": "allnulled",
   "license": "WTFPL"
 }
