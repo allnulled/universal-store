@@ -1,5 +1,6 @@
 /**
  * From: https://github.com/allnulled/universal-store
+ * Also: https://www.npmjs.com/package/@allnulled/universal-store
  */
 (function (factory) {
 
